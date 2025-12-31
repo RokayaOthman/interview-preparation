@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#`include <bits/stdc++.h>
 using namespace std;
 
 void solution()
@@ -16,7 +16,7 @@ void solution()
     {
         for (int i = 0; i < n - 1; i++)
                 { 
-                    // If adjacent magnets have same orientation, they repel (new group)
+                   // // If adjacent magnets have same orientation, they repel (new group)
                     // If they have different orientations, they attract (same group)
                     if (arr[i] != arr[i + 1])
                         {
